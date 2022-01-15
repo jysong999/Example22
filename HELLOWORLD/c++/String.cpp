@@ -8,7 +8,10 @@ int main()
 {
     string mystring;
     mystring = "This is my string";
-    cout << mystring;
+    cout << mystring << endl;
 
+    mystring = "This is a different string content";
+    cout << mystring <<endl;
+    
     return 0;
 }
