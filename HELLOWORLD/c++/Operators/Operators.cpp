@@ -1,4 +1,3 @@
-
 #include <iostream>
 using namespace std;
 
@@ -24,7 +23,5 @@ int main ()
     cout << "c:";
     cout << c;
     cout << newline;
-
     
-
 }
