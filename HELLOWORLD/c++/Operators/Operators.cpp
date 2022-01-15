@@ -23,5 +23,13 @@ int main ()
     cout << "c:";
     cout << c;
     cout << newline;
+
+    // compound assignment : y += x : y = y + x
+    b = 3;
+    a = b;
+    a+=2;
+    cout << a;
+
     
+
 }
