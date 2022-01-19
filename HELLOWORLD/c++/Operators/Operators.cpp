@@ -29,7 +29,37 @@ int main ()
     a = b;
     a+=2;
     cout << a;
+    cout << newline;
 
+
+    // increment and decrement : ++, --
+    // prefix and suffix : ++x, x++
+    a = 3;
+    b = ++a; // a에 +1 된 후 b로 교환
+    cout<< b;
+    cout << newline;
+
+    a = 3;
+    b = a++; // a에 +1 되기 전 b로 교환
+    cout<< b;
+    cout << newline;
+
+    // relational and comparison  ==, !=. >, <, <=, >=
     
+    // logical coperators !, &&, ||
+    // ! : 토글
+    // && and
+    // || or
+
+    // conditional ternaty : condition ? result1 : result2  condition이 true면 result1, 아니면 result2
+    int aa, bb, cc;
+
+    aa = 2;
+    bb = 7;
+    cc = (aa>bb) ? aa : bb;
+
+    cout << cc << '\n';
+
+
 
 }
